@@ -40,13 +40,13 @@ Obtener un segundo puesto a nivel regional, como en este caso, no solo demuestra
 <p align="center">
   <img src="evidencias/img1.jpeg" alt="Medalla" width="500"/>
   <br>
-  <em>Mi medalla por obtener el segundo puesto regional</em>
+  <em>Medalla por obtener el segundo puesto regional</em>
 </p>
 
 <p align="center">
   <img src="evidencias/img2.jpeg" alt="Medalla" width="500"/>
   <br>
-  <em>Medalla por obtener el segundo puesto regional</em>
+  <em>Ceremonia de cierre y premiacion</em>
 </p>
 
 
