@@ -31,6 +31,7 @@ Obtener un segundo puesto a nivel regional, como en este caso, no solo demuestra
 - 🌐 HTML5
 - 🎨 CSS3
 - 🧠 JavaScript Nativo
+- 📊 Mysql
 
 
 ## 📸 Evidencia de logros obtenidos
@@ -56,6 +57,12 @@ Obtener un segundo puesto a nivel regional, como en este caso, no solo demuestra
   <img src="evidencias/img3.jpeg" alt="Medalla" width="500"/>
   <br>
   <em>Medalla de primer y segundo puesto obtenidas en la competencia regional</em>
+</p>
+
+<p align="center">
+  <img src="evidencias/img4.jpeg" alt="Medalla" width="500"/>
+  <br>
+  <em>Poster oficial enviado desde la coordinacion teleinformatica CEET</em>
 </p>
 
 ---
