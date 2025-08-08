@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animación con steps()</title>
+  <style>
+    .sprite {
+      width: 120px; /* ancho de un solo frame */
+      height: 120px; /* alto de un solo frame */
+      background-image: url('sprite.png'); /* tu sprite */
+      background-repeat: no-repeat;
+      animation: caminar 1s steps(4) infinite;
+      image-rendering: pixelated;
+    }
+
+    @keyframes caminar {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -128px 0; /* 32px x 4 pasos */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Animación con CSS steps()</h2>
+  <div class="sprite"></div>
+</body>
+</html>

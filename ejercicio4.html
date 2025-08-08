@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contador Simple</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .box {
+      display: inline-block;
+      margin: 10px;
+      padding: 20px 30px;
+      background: #ddd;
+      border-radius: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      user-select: none;
+      transition: 0.3s;
+    }
+
+    .box.active {
+      background: gold;
+      font-weight: bold;
+    }
+
+    #total {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box" data-val="10">10</div>
+  <div class="box" data-val="32">32</div>
+  <div class="box" data-val="64">64</div>
+  <div class="box" data-val="-15">-15</div>
+
+  <div id="total">Total: 0</div>
+
+  <script>
+    document.body.onclick = e => {
+      if (!e.target.classList.contains('box')) return;
+      e.target.classList.toggle('active');
+
+      let sum = 0;
+      document.querySelectorAll('.box.active').forEach(b => sum += +b.dataset.val);
+      total.textContent = `Total: ${sum}`;
+    };
+  </script>
+
+</body>
+</html>
