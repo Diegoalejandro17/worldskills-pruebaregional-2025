@@ -101,6 +101,6 @@ Puedes encontrarme o escribirme a través de estos medios:
 
 **Diego Alejandro Paloma Díaz**  
 💼 LinkedIn: [Diego Alejandro Paloma](https://www.linkedin.com/in/paloma-el-mejor-ab4008308/)  
-💻 GitHub: [@diegopaloma](https://github.com/Diegoalejandro17/DiegoAlejandroPalomaDiaz)   
+💻 GitHub: [@DiegoAlejandro17](https://github.com/Diegoalejandro17/DiegoAlejandroPalomaDiaz)   
 📧 Correo: diegoalejandropalomadiaz576@gmail.com 
 
