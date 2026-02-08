@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palabra mas larga</title>
+</head>
+<body>
+    <h1>palabra mas larga</h1>
+    <input type="text" id="inputTexto" placeholder="escriba una frase aqui">
+    <button onclick="buscarPalabraMasLarga()">Buscar</button>
+    <p id="resultado"></p>
+
+    <script>
+        function buscarPalabraMasLarga() {
+            const texto = document.getElementById('inputTexto').value;
+            const palabras = texto.split(" ");
+
+            let palabraMasLarga = "";
+
+            for (let palabra of palabras) {
+                if( palabra.length > palabraMasLarga.length) {
+                    palabraMasLarga = palabra;
+                }
+            }
+            document.getElementById('resultado').textContent = `la palabra mas larga es ${palabraMasLarga}`
+        }
+    </script>
+</body>
+</html>

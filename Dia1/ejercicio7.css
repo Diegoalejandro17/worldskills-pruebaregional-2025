@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.puzzle {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 2px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.pieza {
+  width: 100px;
+  height: 100px;
+  background-image: url("sena.png");
+  background-size: 300% 300%;
+  border: 1px solid #000;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reloj digital</title>
+</head>
+<body>
+    <h1 id="reloj">00:00:00</h1>
+
+    <script>
+        setInterval(() =>{
+            const ahora = new Date();
+            const h = String(ahora.getHours()).padStart(2, '0');
+            const m = String(ahora.getMinutes()).padStart(2, '0');
+            const s = String(ahora.getSeconds()).padStart(2, '0');
+            document.getElementById('reloj').textContent = `${h}:${m}:${s}`;
+        }, 1000);
+    </script>
+</body>
+</html>
